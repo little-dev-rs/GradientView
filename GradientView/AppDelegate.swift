@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  GradientView
 //
-//  Created by Svetlana Shardakova on 03.05.2023.
+//  Created by sunny_junne on 03.05.2023.
 //
 
 import UIKit
