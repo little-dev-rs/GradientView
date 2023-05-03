@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         static let shadowColor: CGColor = UIColor.black.cgColor
         static let shadowFillColor: CGColor = UIColor.white.cgColor
         static let shadowOpacity: Float = 0.8
-        static let shadowCornerRadius: CGFloat = 5
+        static let shadowRadius: CGFloat = 30
     }
 
     @IBOutlet weak var gradientView: UIView!
@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         shadowLayer.shadowPath = shadowLayer.path
         shadowLayer.shadowOffset = .zero
         shadowLayer.shadowOpacity = Constants.shadowOpacity
-        shadowLayer.shadowRadius = Constants.shadowCornerRadius
+        shadowLayer.shadowRadius = Constants.shadowRadius
         gradientView.layer.insertSublayer(shadowLayer, at: 0)
     }
 
